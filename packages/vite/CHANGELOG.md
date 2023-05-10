@@ -1,3 +1,12 @@
+## <small>4.3.6 (2023-05-10)</small>
+
+* fix: avoid dev-server crash when ws proxy error (#12829) ([87e1f58](https://github.com/vitejs/vite/commit/87e1f58)), closes [#12829](https://github.com/vitejs/vite/issues/12829)
+* fix: call `tryFsResolve` for relative `new URL(foo, import.meta.url)` (#13142) ([eeb0617](https://github.com/vitejs/vite/commit/eeb0617)), closes [#13142](https://github.com/vitejs/vite/issues/13142)
+* fix(build): declare moduleSideEffects for vite:modulepreload-polyfill (#13099) ([d63129b](https://github.com/vitejs/vite/commit/d63129b)), closes [#13099](https://github.com/vitejs/vite/issues/13099)
+* fix(server): intercept ping requests (#13117) ([d06cc42](https://github.com/vitejs/vite/commit/d06cc42)), closes [#13117](https://github.com/vitejs/vite/issues/13117)
+
+
+
 ## <small>4.3.5 (2023-05-05)</small>
 
 * fix: location is not defined error in cleanScssBugUrl (#13100) ([91d7b67](https://github.com/vitejs/vite/commit/91d7b67)), closes [#13100](https://github.com/vitejs/vite/issues/13100)
